@@ -1,0 +1,145 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  background-color: #fff;
+  font-family: 'Space Mono', monospace;
+  font-size: 1rem;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px 24px 24px;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.page-header h3 {
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 25px;
+  color: #333;
+  margin: 0;
+}
+
+#main-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.main-image {
+  width: 100%;
+  max-width: 286px;
+  margin-bottom: 60px;
+}
+
+#main-content h1 {
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 71px;
+  letter-spacing: -3px;
+  margin: 0 0 30px;
+}
+
+#main-content p {
+  font-size: 1.125rem;
+  line-height: 26px;
+  color: #4f4f4f;
+}
+
+#main-content button {
+  margin-top: 66px;
+  background-color: #333;
+  font-family: 'Space Mono', monospace;
+  color: #fff;
+  font-size: 0.875rem;
+  font-weight: 700;
+  line-height: 20px;
+  text-transform: uppercase;
+  padding: 24px 43px;
+}
+
+#main-content button:focus {
+  outline: 2px dotted #ff6d5b;
+}
+
+.page-footer {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.875rem;
+  line-height: 17px;
+  color: #bdbdbd;
+  text-align: center;
+}
+
+.page-footer p {
+  font-weight: 500;
+}
+
+.page-footer span {
+  font-weight: 600;
+}
+
+@media (min-width: 960px) and (max-width: 1200px) {
+
+  body {
+    padding: 40px 119px 24px 77px;
+  }
+
+  #main-content {
+    flex-direction: row;
+  }
+
+  .main-image {
+    margin-right: 118px;
+    max-width: 386px;
+    align-self: flex-start;
+  }
+}
+
+@media (min-width: 1201px) {
+
+  body {
+    padding: 40px 119px 24px 77px;
+  }
+  
+  #main-content {
+    flex-direction: row;
+  }
+
+  .main-image {
+    margin-right: 118px;
+    max-width: 539px;
+    align-self: flex-start;
+  }
+
+  #main-content h1 {
+    font-size: 4rem;
+    line-height: 94px;
+    margin: 0 0 36px;
+  }
+
+  #main-content p {
+    font-size: 1.5rem;
+    line-height: 35px;
+  }
+
+  #main-content button {
+    margin-top: 64px;
+  }
+
+  .page-footer span {
+    font-weight: 700;
+  }
+}
