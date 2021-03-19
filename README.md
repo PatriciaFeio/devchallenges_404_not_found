@@ -36,7 +36,11 @@
 
 ## Overview
 
+For mobile:
+
 ![screenshot for mobile](https://raw.githubusercontent.com/PatriciaFeio/devchallenges_404_not_found/main/solution-screenshot-mobile.png)
+
+For desktop:
 
 ![screenshot for desktop](https://raw.githubusercontent.com/PatriciaFeio/devchallenges_404_not_found/main/solution-screenshot-desktop.png)
 
