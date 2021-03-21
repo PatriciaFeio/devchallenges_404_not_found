@@ -25,6 +25,18 @@ p {
   padding: 0;
 }
 
+a {
+  color: #bdbdbd;
+  text-decoration: none;
+  border-bottom: 2px solid transparent;
+  transition: all ease-in-out 1s;
+}
+
+a:hover {
+  color: #4f4f4f;
+  border-color: #4f4f4f;
+}
+
 .page-header h3 {
   text-transform: uppercase;
   font-size: 1.5rem;
@@ -48,7 +60,7 @@ p {
 #main-content h1 {
   font-weight: 700;
   font-size: 3rem;
-  line-height: 71px;
+  line-height: 51px;
   letter-spacing: -3px;
   margin: 0 0 30px;
 }
@@ -91,7 +103,7 @@ p {
   font-weight: 600;
 }
 
-@media (min-width: 960px) and (max-width: 1200px) {
+@media (min-width: 960px) {
 
   body {
     padding: 40px 119px 24px 77px;
@@ -99,6 +111,12 @@ p {
 
   #main-content {
     flex-direction: row;
+  }
+
+  #main-content h1 {
+    font-size: 4rem;
+    line-height: 71px;
+    margin: 0 0 36px;
   }
 
   .main-image {
@@ -110,24 +128,12 @@ p {
 
 @media (min-width: 1201px) {
 
-  body {
-    padding: 40px 119px 24px 77px;
-  }
-  
-  #main-content {
-    flex-direction: row;
-  }
-
   .main-image {
-    margin-right: 118px;
     max-width: 539px;
-    align-self: flex-start;
   }
 
   #main-content h1 {
-    font-size: 4rem;
     line-height: 94px;
-    margin: 0 0 36px;
   }
 
   #main-content p {
